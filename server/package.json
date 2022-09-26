@@ -1,0 +1,20 @@
+{
+  "name": "graphql-subscriptions-postgres",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com/webgears0/graphql-subscriptions-postgres.git",
+  "author": "Matt Gear",
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-tools/schema": "^9.0.3",
+    "apollo-server-express": "^3.10.2",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "graphql": "^16.6.0",
+    "knex": "^2.3.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "db:init": "run.env knex migrate:latest"
+  }
+}
