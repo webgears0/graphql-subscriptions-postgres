@@ -1,0 +1,8 @@
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  align-items: center;
+}

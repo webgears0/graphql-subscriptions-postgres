@@ -1,5 +1,0 @@
-{
-  "dependencies": {
-    "graphql-postgres-subscriptions": "^1.0.5"
-  }
-}
